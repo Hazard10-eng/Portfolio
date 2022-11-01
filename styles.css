@@ -40,8 +40,12 @@ body {
 
 .contact {
   text-align: left;
-  padding-top: 3vh;
-  margin-left: 12vw;
+  padding-top: 0;
+  margin-left: 14vw;
+}
+
+ul li {
+  display: inline;
 }
 
 .contact li {
