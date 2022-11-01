@@ -13,7 +13,7 @@ body {
   align-items: center;
 
   /* background-color: #333; */
-  color: white;
+  /* color: white; */
 }
 
 .logo {
@@ -38,5 +38,5 @@ body {
   margin-left: 10vw;
   font-size: 25px;
   padding-top: vh;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
