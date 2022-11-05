@@ -1,5 +1,5 @@
 # Project Name
-Portfolio: set up and mobile first
+Portfolio: finish mobile version
 
 
 ## Built With
