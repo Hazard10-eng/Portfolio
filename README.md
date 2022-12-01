@@ -1,62 +1,109 @@
-# PROJECT NAME
 
- SET UP AND MOBILE FIRST
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-> This project was about to set up mobile portfolio
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 
-## 🛠 Built With
-HTML AND CSS
+# Project name
+portfolio set up mobile first
+
+> this project was intended to build mobile portfolio
+
+## 🛠 Built With 
+HTML
+CSS
 
 ### Tech Stack 
-HTML AND CSS
+HTML
+CSS
 
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<
 
 ### Key Features <a name="key-features"></a>
-This project was intended to build mobile portfolio
-This project has to be done in one day
-This project has had many changes to make it perfect
-This project has uniqueness and has been solo
 
+> Describe between 1-3 key features of the application.
 
+- This project was about bulding mobile portfolio 
+- This project was designed to use html and css
+- This porject have to be built solo
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo 
 
-> link to my project
-http://127.0.0.1:5501/
+- [Live Demo Link](http://127.0.0.1:5501/index.html)
 
+## 💻 Getting Started 
 
+> Describe how a new developer could make use of your project.
 
-## 💻 how to access my project
+To get a local copy up and running, follow these steps.
+if you find my project helpful to you and you need to use you might follow the link of
+my github:https://github.com/Hazard10-eng, and copy the repo to your own
 
-to get access to this porject you may use link to my github and clone its repo to your own
+### Prerequisites
 
+In order to run this project you need:
+
+install linters 
+Install vs code 
+
+### Setup
+
+Clone this repository to your desired folder:
+git@github.com:Hazard10-eng/Portfolio.git
 ### Run tests
 
-To run tests, run the following command to correct linters error:
+To run tests, run the following command:
 
-npx stylelint styles.css
+npx stylelint styles.css for linters check and correction
 
 
-## 👥 Authors <a name="authors"></a>
-
-> Jean Aime Sebagabo
-
+👤 **Author
 
 - GitHub: [@githubhandle](https://github.com/Hazard10-eng)
-- Twitter: [@twitterhandle](https://twitter.com/AimeSebagabo))
-- LinkedIn: [LinkedIn]((https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)
+- Twitter: [@twitterhandle](https://twitter.com/AimeSebagabo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)
 
 
-> 
+
 ## ⭐️ Show your support <a name="support"></a>
 
-> please readers after reading or using my project you can rate it to ten so that I can know how much I have been helpful
+> Write a message to encourage readers to support your project
+
+If you like this project please rate it to ten so I can have courage to move forward 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank God for helping me finish this project
+
+I would like to thank God to help me finish this project
 
 
 ## 📝 License <a name="license"></a>
@@ -65,3 +112,4 @@ This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
