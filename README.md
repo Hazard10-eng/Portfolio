@@ -43,10 +43,6 @@ CSS
 HTML
 CSS
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<
-
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
@@ -85,10 +81,9 @@ npx stylelint styles.css for linters check and correction
 
 👤 **Author
 
-- GitHub: [@githubhandle](https://github.com/Hazard10-eng)
-- Twitter: [@twitterhandle](https://twitter.com/AimeSebagabo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)
-
+- GitHub:[(https://github.com/Hazard10-eng)]
+- Twitter: [](https://twitter.com/AimeSebagabo)]
+- LinkedIn: [(https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)]
 
 
 ## ⭐️ Show your support
@@ -99,10 +94,7 @@ If you like this project please rate it to ten so I can have courage to move for
 
 ## 🙏 Acknowledgments 
 
-
-
 I would like to thank God to help me finish this project
-
 
 ## 📝 License 
 
