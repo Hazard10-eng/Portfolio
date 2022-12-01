@@ -82,7 +82,7 @@ npx stylelint styles.css for linters check and correction
 👤 **Author
 
 - GitHub:[(https://github.com/Hazard10-eng)]
-- Twitter: [](https://twitter.com/AimeSebagabo)]
+- Twitter: [https://twitter.com/AimeSebagabo]
 - LinkedIn: [(https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)]
 
 
