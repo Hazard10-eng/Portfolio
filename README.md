@@ -40,10 +40,10 @@ HTML
 CSS
 
 ### Tech Stack 
-HTML
-CSS
+-HTML
+-CSS
 
-### Key Features <a name="key-features"></a>
+### Key Features 
 
 > Describe between 1-3 key features of the application.
 
@@ -59,14 +59,14 @@ CSS
 
 To get a local copy up and running, follow these steps.
 if you find my project helpful to you and you need to use you might follow the link of
-my github:https://github.com/Hazard10-eng, and copy the repo to your own
+my github: https://github.com/Hazard10-eng,  and copy the repo to your own
 
 ### Prerequisites
 
 In order to run this project you need:
 
-install linters 
-Install vs code 
+-install linters 
+-Install vs code 
 
 ### Setup
 
@@ -87,8 +87,6 @@ npx stylelint styles.css for linters check and correction
 
 
 ## ⭐️ Show your support
-
-> Write a message to encourage readers to support your project
 
 If you like this project please rate it to ten so I can have courage to move forward 
 
