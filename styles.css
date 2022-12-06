@@ -1,10 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
  body {
  position: relative; 
-   width: 375px;
+   width: 340px;
   height: 5410px;
   background: #e5e5e5; 
+  margin:0;
+  padding:0;
  }
+ .mobile-portfolio{
+position: relative;
+width: 375px;
+height: 4876.8px;
+background: #F7F7F9;
+ }
+
+ .first-page {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0;
+  top: 0;
+  background: #fff;
+}
+
+.main {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+}
+
+.logo a {
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.bx {
+  position: relative;
+  right: 10.67%;
+  top: 32%;
+  bottom: 50%;
+  font-size: 30px;
+  
+}
+
+.headline {
+  background-image: url("./image/header-shapes\ mobile@2x.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 60px;
+}
+
+.name {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.media {
+  width: 130px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+.contact li {
+  list-style: none;
+}
 .second-paper {
   display: flex;
   flex-direction: column;
@@ -12,10 +165,10 @@
   padding: 114px 24px;
   gap: 88px;
   position: absolute;
-  width: 375px;
+  width: 340px;
   height: 2788px;
   left: 0;
-  top: 28px;
+  top: 718px;
   
 }
 
@@ -661,7 +814,7 @@
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 552px;
+  height: 580px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -689,7 +842,7 @@
   width: 124px;
   height: 48px;
   left: 5vw;
-  top: calc(65.8% - 48px / 2);
+  top: calc(66.4% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -722,7 +875,7 @@
   align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 350px;
+  width: 327px;
   height: 100vh;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -778,9 +931,9 @@
   gap: 24px;
   position: absolute;
   background: #FFFFFF;
-  width: 320px;
+  width: 324px;
   height: 1126.15px;
-  left: calc(51% - 375px / 2);
+  left: calc(48.8% - 375px / 2);
   top: 2800px;
 }
 
@@ -1044,16 +1197,16 @@
   width: 48px;
   height: 48px;
   left: 12px;
-  top: calc(50% - 48px / 2 - 0.36px);
+  top: calc(48% - 48px / 2 - 0.36px);
   border: 1px solid #fff;
 }
 
 .html-text {
   position: absolute;
   height: 24px;
-  left: 12vw;
+  left: 10vw;
   right: 12px;
-  bottom: 76.8vh;
+  bottom: 82.8vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1134,7 +1287,7 @@
   width: 40px;
   height: 40px;
   right: 26px;
-  top: calc(74.4% - 40px / 2);
+  top: calc(73.6% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -1171,13 +1324,8 @@
   width: 40px;
   height: 40px;
   right: 26px;
-  top: calc(80.4% - 40px / 2);
+  top: calc(79.6% - 40px / 2);
   border-radius: 8px;
 }
 
-.network {
-  display:flex;
-  list-style: none;
-  text-decoration:none;
-  font-size:20px;
-}
+
