@@ -31,7 +31,8 @@ REQUIRED SECTIONS:
 
 
 # Project name
-portfolio set up mobile first
+
+Finish mobile version
 
 > this project was intended to build mobile portfolio
 
@@ -64,10 +65,12 @@ my github: https://github.com/Hazard10-eng,  and copy the repo to your own
 ### Prerequisites
 
 In order to run this project you need:
+
 -computer
 -network
 -install linters 
 -install vs code 
+
 
 ### Setup
 
@@ -97,6 +100,6 @@ I would like to thank God to help me finish this project
 
 ## 📝 License 
 
-This project is [MIT](./LICENSE) licensed.
+This project is MIT licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish
