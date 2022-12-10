@@ -68,6 +68,7 @@
   right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
+  
 }
 
 .bx {
@@ -76,6 +77,12 @@
   top: 32%;
   bottom: 50%;
   font-size: 30px;
+  color:blue;
+
+}
+
+a {
+  color:black;
 }
 
 .headline {
@@ -123,16 +130,18 @@
   flex-grow: 0;
 }
 
-.media {
-  width: 130px;
-  height: 24px;
+button {
+  width: 150px;
+  height: 18px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
+  border:none;
+  background:none;
   order: 0;
   flex-grow: 0;
 }
