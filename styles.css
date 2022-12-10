@@ -79,7 +79,7 @@
 }
 
 .headline {
-  background-image: url("header-shapes mobile.svg");
+  background-image: url("./image/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
