@@ -1,4 +1,3 @@
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -31,7 +30,7 @@ REQUIRED SECTIONS:
 
 
 # Project name
-portfolio set up mobile first
+Portfolio set up and mobile first
 
 > this project was intended to build mobile portfolio
 
@@ -40,14 +39,10 @@ HTML
 CSS
 
 ### Tech Stack 
-HTML
-CSS
+-HTML
+-CSS
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<
-
-### Key Features <a name="key-features"></a>
+### Key Features 
 
 > Describe between 1-3 key features of the application.
 
@@ -61,18 +56,17 @@ CSS
 
 ## 💻 Getting Started 
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 if you find my project helpful to you and you need to use you might follow the link of
-my github:https://github.com/Hazard10-eng, and copy the repo to your own
+my github: https://github.com/Hazard10-eng,  and copy the repo to your own
 
 ### Prerequisites
 
 In order to run this project you need:
-
-install linters 
-Install vs code 
+-computer
+-network
+-install linters 
+-install vs code 
 
 ### Setup
 
@@ -87,29 +81,21 @@ npx stylelint styles.css for linters check and correction
 
 👤 **Author
 
-- GitHub: [@githubhandle](https://github.com/Hazard10-eng)
-- Twitter: [@twitterhandle](https://twitter.com/AimeSebagabo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)
+- GitHub:[(https://github.com/Hazard10-eng)]
+- Twitter: [https://twitter.com/AimeSebagabo]
+- LinkedIn: [(https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)]
 
 
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
+## ⭐️ Show your support
 
 If you like this project please rate it to ten so I can have courage to move forward 
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
+## 🙏 Acknowledgments 
 
 I would like to thank God to help me finish this project
 
-
-## 📝 License <a name="license"></a>
+## 📝 License 
 
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
