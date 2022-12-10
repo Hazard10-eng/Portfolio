@@ -63,9 +63,10 @@ my github: https://github.com/Hazard10-eng,  and copy the repo to your own
 ### Prerequisites
 
 In order to run this project you need:
-
+-computer
+-network
 -install linters 
--Install vs code 
+-install vs code 
 
 ### Setup
 
