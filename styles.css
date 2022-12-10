@@ -68,7 +68,6 @@
   right: 24px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
-  
 }
 
 .bx {
@@ -77,12 +76,7 @@
   top: 32%;
   bottom: 50%;
   font-size: 30px;
-  color:blue;
-
-}
-
-a {
-  color:black;
+  color: blue;
 }
 
 .headline {
@@ -140,8 +134,8 @@ button {
   line-height: 24px;
   color: #7f8cff;
   flex: none;
-  border:none;
-  background:none;
+  border: none;
+  background: none;
   order: 0;
   flex-grow: 0;
 }
