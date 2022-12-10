@@ -94,7 +94,9 @@ body {
 }
 
 .headline {
+
   background-image: url("./image/header-shapes\ mobile@2x.svg");
+  background-image: url("header-shapes mobile.svg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
