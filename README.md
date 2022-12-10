@@ -70,7 +70,8 @@ my github:https://github.com/Hazard10-eng, and copy the repo to your own
 ### Prerequisites
 
 In order to run this project you need:
-
+network
+computer
 install linters 
 Install vs code 
 
@@ -87,9 +88,9 @@ npx stylelint styles.css for linters check and correction
 
 👤 **Author
 
-- GitHub: [@githubhandle](https://github.com/Hazard10-eng)
-- Twitter: [@twitterhandle](https://twitter.com/AimeSebagabo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/)
+- GitHub: [https://github.com/Hazard10-eng]
+- Twitter: [https://twitter.com/AimeSebagabo]
+- LinkedIn:[https://www.linkedin.com/in/jean-aime-sebagabo-279aa2207/]
 
 
 
