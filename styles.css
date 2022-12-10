@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
- body {
- position: relative; 
-   width: 340px;
-  height: 5410px;
-  background: #e5e5e5; 
-  margin:0;
-  padding:0;
- }
- .mobile-portfolio{
-position: relative;
-width: 375px;
-height: 4876.8px;
-background: #F7F7F9;
- }
 
- .first-page {
+body {
+  position: relative;
+  width: 340px;
+  height: 5410px;
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-portfolio {
+  position: relative;
+  width: 375px;
+  height: 4876.8px;
+  background: #f7f7f9;
+}
+
+.first-page {
   position: absolute;
   width: 375px;
   height: 718px;
@@ -89,7 +91,6 @@ background: #F7F7F9;
   top: 32%;
   bottom: 50%;
   font-size: 30px;
-  
 }
 
 .headline {
@@ -158,6 +159,7 @@ ul li {
 .contact li {
   list-style: none;
 }
+
 .second-paper {
   display: flex;
   flex-direction: column;
@@ -169,7 +171,6 @@ ul li {
   height: 2788px;
   left: 0;
   top: 718px;
-  
 }
 
 .page1 {
@@ -195,7 +196,6 @@ ul li {
   border-radius: 8px;
   flex: none;
   flex-grow: 0;
-  
 }
 
 .left-block {
@@ -903,7 +903,7 @@ ul li {
 
 .action-text4 {
   width: 100px;
-  bottom:32vh;
+  bottom: 32vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -923,14 +923,13 @@ ul li {
 }
 
 .about-myself {
-
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
   gap: 24px;
   position: absolute;
-  background: #FFFFFF;
+  background: #fff;
   width: 324px;
   height: 1126.15px;
   left: calc(48.8% - 375px / 2);
@@ -941,7 +940,7 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0px;
+  gap: 0;
   width: 360px;
   height: 409px;
   flex: none;
@@ -949,7 +948,7 @@ ul li {
   flex-grow: 0;
 }
 
-.text-intro { 
+.text-intro {
   width: 190px;
   height: 140px;
   font-family: 'Poppins', sans-serif;
@@ -977,7 +976,7 @@ ul li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  left:35px;
+  left: 35px;
 }
 
 .social-media {
@@ -1052,7 +1051,6 @@ ul li {
   order: 0;
   flex-grow: 0;
   border: none;
-  
 }
 
 .skill-list {
@@ -1124,14 +1122,6 @@ ul li {
   right: 20px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
-}
-
-.bx {
-  width: 24px;
-  height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .language-list {
@@ -1260,8 +1250,6 @@ ul li {
   flex-grow: 0;
 }
 
-
-
 .text-titles {
   position: absolute;
   height: 24px;
@@ -1327,5 +1315,3 @@ ul li {
   top: calc(79.6% - 40px / 2);
   border-radius: 8px;
 }
-
-
