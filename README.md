@@ -1,4 +1,3 @@
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -31,7 +30,7 @@ REQUIRED SECTIONS:
 
 
 # Project name
-portfolio set up mobile first
+Portfolio set up and mobile first
 
 > this project was intended to build mobile portfolio
 
