@@ -37,7 +37,9 @@ REQUIRED SECTIONS:
 ### PROJECT NAME
 >Set up and mobile first
 
+ portfolio-setup
 > Set up and mobile first was objected to build simple portfolio
+
 
 
 ### It is built by 
@@ -73,7 +75,9 @@ In order to run this project you need:
 
 ### Setup
 Clone this repository to your desired folder:
+ portfolio-setup
 git@github.com:Hazard10-eng/Portfolio.git
+
 
 ### Install this project with:
  -vs code
@@ -103,5 +107,4 @@ I would like to thank God to help me finish this project
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 
