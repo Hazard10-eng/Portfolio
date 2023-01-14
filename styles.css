@@ -115,24 +115,23 @@ li {
   background: #fff;
   border: 0.2rem solid #e5e5e5;
   border-radius: 20px;
-  flex-direction:row;
-
-} 
-
+  flex-direction: row;
+}
 
 .project:last-child {
   margin-bottom: 40px;
 }
 
 .project-img {
-  width: 295px;
+  width: 265px;
   height: 220px;
   flex-direction: row;
   flex: none;
   flex-grow: 0;
   margin-left: 30px;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
+
 .project-title {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
