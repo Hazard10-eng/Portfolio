@@ -33,10 +33,13 @@ REQUIRED SECTIONS:
 
 ### PROJECT NAME
 
- portfolio-mobile
->FINISH MOBILE VERSION
+
+>Portfolio: add a contact form and finish the mobile version
+> This project is intended to finish portfolio by adding contact form
 
 
+
+This project was intended to finish portfolio by adding contact form
 
 
 ### It is built by 
