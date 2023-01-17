@@ -57,11 +57,12 @@ li {
   min-width: 375px;
   padding-top: 90px;
   padding-bottom: 80px;
+  padding-left:24px;
   background: #fff;
   background-image: url("./image/bg.svg");
   background-repeat: no-repeat;
   background-size: calc(100%);
-  border-bottom-left-radius: 10%;
+  border-bottom-left-radius: 6rem;
 }
 
 .name {
@@ -293,7 +294,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 740px;
+  height: 779px;
 }
 
 .form-header {
@@ -328,17 +329,20 @@ li {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  align-items: center;
+  text-align: center;
   color: #ebebff;
   width: 327px;
   height: 102px;
-  left: 24px;
+ 
+  
+
 }
 
 .form-details {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-top:72px;
 }
 
 .username {
@@ -355,6 +359,7 @@ li {
   display: flex;
   align-items: center;
   color: #172b4d;
+  padding-left:16px 
 }
 
 .useremail {
@@ -371,6 +376,7 @@ li {
   display: flex;
   align-items: center;
   color: #172b4d;
+  padding:16px;
 }
 
 .userfeedback {
@@ -385,6 +391,7 @@ li {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  padding:16px;
 }
 
 .fbutt {
