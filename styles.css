@@ -338,6 +338,12 @@ li {
     color: #EBEBFF;
 }
 
+.form-details {
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+
 .username{
   background: #FFFFFF;
     /* Base/100 */
@@ -393,3 +399,4 @@ font-family: 'Poppins';
 width: 140px;
   height: 48px;
 }
+
