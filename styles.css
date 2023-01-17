@@ -344,6 +344,8 @@ li {
   
     border: 1px solid #CFD8DC;
     border-radius: 8px;
+    height: 48px;
+  width: 327px;
 }
 
 .useremail{
@@ -352,6 +354,8 @@ background: #FFFFFF;
 
   border: 1px solid #CFD8DC;
   border-radius: 8px;
+    height: 48px;
+  width: 327px;
 }
 
 .userfeedback{
@@ -360,6 +364,8 @@ background: #FFFFFF;
 
   border: 1px solid #CFD8DC;
   border-radius: 8px;
+  width: 327px;
+    height: 170px;
 }
 
 .fbutt{
@@ -384,7 +390,6 @@ font-family: 'Poppins';
 
   /* Inside auto layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+width: 140px;
+  height: 48px;
 }
