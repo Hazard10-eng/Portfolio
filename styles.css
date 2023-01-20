@@ -54,7 +54,7 @@ li {
 }
 
 .navigation {
-  display:none;
+  display: none;
 }
 
 .first-page {
@@ -78,8 +78,7 @@ li {
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding-left:0px;
-  
+  padding-left: 0;
 }
 
 .text {
@@ -443,9 +442,10 @@ li {
 }
 
 @media only screen and (min-width: 768px) {
-  h2{
-    padding-left:120px;
+  h2 {
+    padding-left: 120px;
   }
+
   .menu {
     display: none;
   }
@@ -488,7 +488,7 @@ li {
 
   .first-page {
     min-width: 375px;
-    padding-top: 190px; 
+    padding-top: 190px;
     padding-left: 260px;
     padding-right: 260px;
     height: 680px;
@@ -496,14 +496,14 @@ li {
     background-image: url("image/Header bg.svg");
     background-repeat: no-repeat;
     background-position-y: bottom;
-    background-position-x:right;
+    background-position-x: right;
     background-size: 92%;
     border-bottom-left-radius: 6rem;
   }
 
   .name {
-    color: #091E42;
-    font-family:700px;
+    color: #091e42;
+    font-family: 700px;
   }
 
   .work {
@@ -524,8 +524,10 @@ li {
     margin-right: 142px;
     margin-left: 142px;
   }
-  .multipost-project, .uber-project {
-    display:flex;
+
+  .multipost-project,
+  .uber-project {
+    display: flex;
     flex-direction: row-reverse;
   }
 
@@ -545,8 +547,8 @@ li {
   }
 
   .project-title {
-    padding-left:0;
-    margin-bottom:0px;
+    padding-left: 0;
+    margin-bottom: 0;
   }
 
   .project-client {
@@ -557,39 +559,43 @@ li {
     line-height: 24px;
     color: #344563;
   }
+
   .project-lang {
-    color: #6B778C;
+    color: #6b778c;
   }
+
   .year {
-    color:#6B778C;
+    color: #6b778c;
   }
 
   .project-description {
-    margin-top:0px;
+    margin-top: 0;
   }
+
   .language-title {
-    color:#344563
+    color: #344563;
   }
+
   .tab-title {
     color: #344563;
-    line-height:24px;
-    font-size:20px;
-    font-weight:500;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 500;
   }
 
   .more-about:hover {
-    color: #FFFFFF;
-   background: #6070FF;
-  }
-  .more-about:active {
-    color: #FFFFFF;
-    background: #2230D2
+    color: #fff;
+    background: #6070ff;
   }
 
-  
+  .more-about:active {
+    color: #fff;
+    background: #2230d2;
+  }
+
+
   .more-about:disabled {
-    color: #5E6C84;
-    
+    color: #5e6c84;
   }
 
   .about-myself {
@@ -604,11 +610,11 @@ li {
     padding-top: 40px;
     padding-left: 142px;
     padding-right: 184px;
-    gap:37px;
+    gap: 37px;
   }
 
   .about-me {
-    padding-left:0px; 
+    padding-left: 0;
   }
 
   .myself-intro {
@@ -638,9 +644,10 @@ li {
     width: 48px;
     height: 48px;
   }
+
   .frame-name {
     color: #253858;
-    font-weight:500;
+    font-weight: 500;
   }
 
   .form {
@@ -653,10 +660,12 @@ li {
     width: 569px;
     height: 102px;
   }
+
   .form-details {
-    padding-top:12px;
+    padding-top: 12px;
   }
+
   .fbutt {
-   margin-left:26%;
+    margin-left: 26%;
   }
 }
