@@ -508,6 +508,7 @@ li {
 
   .work {
     padding-top: 10%;
+    align-items: center;
   }
 
   .project {
@@ -521,8 +522,6 @@ li {
     right: 0;
     width: 1056px;
     height: 456px;
-    margin-right: 142px;
-    margin-left: 142px;
   }
 
   .multipost-project,
@@ -583,17 +582,17 @@ li {
     font-weight: 500;
   }
 
-  .more-about:hover {
+  .more:hover {
     color: #fff;
     background: #6070ff;
   }
 
-  .more-about:active {
+  .more:active {
     color: #fff;
     background: #2230d2;
   }
 
-  .more-about:disabled {
+  .more:disabled {
     color: #5e6c84;
   }
 
@@ -620,6 +619,20 @@ li {
     width: 447px;
   }
 
+  .resume:hover {
+    color: #fff;
+    background: #6070ff;
+  }
+
+  .resume:active {
+    color: #fff;
+    background: #2230d2;
+  }
+
+  .resume:disabled {
+    color: #5e6c84;
+  }
+
   .languages {
     width: 664px;
   }
@@ -642,7 +655,10 @@ li {
   .ellipse {
     width: 48px;
     height: 48px;
+    padding-top: 12px;
+    padding-left: 12px;
   }
+
 
   .frame-name {
     color: #253858;
@@ -652,7 +668,6 @@ li {
   .form {
     background-image: url("image/contact form background shapes 1.svg");
     position: relative;
-    bottom: 100px;
   }
 
   .contact-description {
