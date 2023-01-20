@@ -34,12 +34,9 @@ REQUIRED SECTIONS:
 ### PROJECT NAME
 
 
->Portfolio: add a contact form and finish the mobile version
-> This project is intended to finish portfolio by adding contact form
+>Desktop Version
 
-
-
-This project was intended to finish portfolio by adding contact form
+This project was intended to finish portfolio by making desktop version
 
 
 ### It is built by 
