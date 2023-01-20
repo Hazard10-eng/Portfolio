@@ -53,6 +53,10 @@ li {
   color: #6070ff;
 }
 
+.navigation {
+  display:none;
+}
+
 .first-page {
   min-width: 375px;
   padding-top: 90px;
@@ -74,6 +78,8 @@ li {
   display: flex;
   align-items: center;
   color: #172b4d;
+  padding-left:0px;
+  
 }
 
 .text {
@@ -436,7 +442,10 @@ li {
   color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
+  h2{
+    padding-left:120px;
+  }
   .menu {
     display: none;
   }
@@ -479,17 +488,22 @@ li {
 
   .first-page {
     min-width: 375px;
-    padding-top: 90px;
-    padding-bottom: 80px;
+    padding-top: 190px; 
     padding-left: 260px;
     padding-right: 260px;
-    height: 846px;
+    height: 680px;
     background: #fff;
     background-image: url("image/Header bg.svg");
     background-repeat: no-repeat;
-    background-position-y: 70px;
-    background-size: 100%;
+    background-position-y: bottom;
+    background-position-x:right;
+    background-size: 92%;
     border-bottom-left-radius: 6rem;
+  }
+
+  .name {
+    color: #091E42;
+    font-family:700px;
   }
 
   .work {
@@ -510,6 +524,10 @@ li {
     margin-right: 142px;
     margin-left: 142px;
   }
+  .multipost-project, .uber-project {
+    display:flex;
+    flex-direction: row-reverse;
+  }
 
   .project:last-child {
     margin-bottom: 5%;
@@ -526,6 +544,11 @@ li {
     padding-top: 20px;
   }
 
+  .project-title {
+    padding-left:0;
+    margin-bottom:0px;
+  }
+
   .project-client {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -534,10 +557,39 @@ li {
     line-height: 24px;
     color: #344563;
   }
+  .project-lang {
+    color: #6B778C;
+  }
+  .year {
+    color:#6B778C;
+  }
 
-  .more-about {
-    background-color: #4053fc;
-    color: #fff;
+  .project-description {
+    margin-top:0px;
+  }
+  .language-title {
+    color:#344563
+  }
+  .tab-title {
+    color: #344563;
+    line-height:24px;
+    font-size:20px;
+    font-weight:500;
+  }
+
+  .more-about:hover {
+    color: #FFFFFF;
+   background: #6070FF;
+  }
+  .more-about:active {
+    color: #FFFFFF;
+    background: #2230D2
+  }
+
+  
+  .more-about:disabled {
+    color: #5E6C84;
+    
   }
 
   .about-myself {
@@ -550,8 +602,13 @@ li {
     display: flex;
     height: 800px;
     padding-top: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 142px;
+    padding-right: 184px;
+    gap:37px;
+  }
+
+  .about-me {
+    padding-left:0px; 
   }
 
   .myself-intro {
@@ -581,6 +638,10 @@ li {
     width: 48px;
     height: 48px;
   }
+  .frame-name {
+    color: #253858;
+    font-weight:500;
+  }
 
   .form {
     background-image: url("image/contact form background shapes 1.svg");
@@ -591,5 +652,11 @@ li {
   .contact-description {
     width: 569px;
     height: 102px;
+  }
+  .form-details {
+    padding-top:12px;
+  }
+  .fbutt {
+   margin-left:26%;
   }
 }
