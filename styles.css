@@ -445,14 +445,17 @@ li {
   h2 {
     padding-left: 120px;
   }
-  .logo>h2 {
+
+  .logo > h2 {
     animation: logo 2s 1;
   }
+
   @keyframes logo {
-    from{
-      transform:rotateY(0deg);
+    from {
+      transform: rotateY(0deg);
     }
-    to{
+
+    to {
       transform: rotateY(360deg);
     }
   }
@@ -553,7 +556,7 @@ li {
     transition: all 1s;
   }
 
-  .project-img:hover{
+  .project-img:hover {
     transform: scale(0.8);
   }
 
@@ -693,19 +696,25 @@ li {
   .form-details {
     padding-top: 12px;
   }
-  .username,.useremail,.userfeedback {
-    transition:all 2s;
+
+  .username,
+  .useremail,
+  .userfeedback {
+    transition: all 2s;
   }
+
   .username:hover {
-    transform:scale(1.2);
+    transform: scale(1.2);
   }
+
   .useremail:hover {
-    transform:scale(1.2);
+    transform: scale(1.2);
   }
+
   .userfeedback:hover {
-    transform:scale(1.2);
+    transform: scale(1.2);
   }
-  
+
 
   .fbutt {
     margin-left: 26%;
