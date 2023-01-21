@@ -539,6 +539,11 @@ li {
     width: 544px;
     height: 450px;
     margin: 0;
+    transition: all 1s;
+  }
+
+  .project-img:hover{
+    transform: scale(0.8);
   }
 
   .project-details {
