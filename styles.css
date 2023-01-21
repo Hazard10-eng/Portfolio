@@ -677,6 +677,19 @@ li {
   .form-details {
     padding-top: 12px;
   }
+  .username,.useremail,.userfeedback {
+    transition:all 2s;
+  }
+  .username:hover {
+    transform:scale(1.2);
+  }
+  .useremail:hover {
+    transform:scale(1.2);
+  }
+  .userfeedback:hover {
+    transform:scale(1.2);
+  }
+  
 
   .fbutt {
     margin-left: 26%;
