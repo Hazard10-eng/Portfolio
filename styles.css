@@ -53,6 +53,10 @@ li {
   color: #6070ff;
 }
 
+.navigation {
+  display: none;
+}
+
 .first-page {
   min-width: 375px;
   padding-top: 90px;
@@ -68,12 +72,13 @@ li {
 .name {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 50px;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #172b4d;
+  padding-left: 0;
 }
 
 .text {
@@ -108,9 +113,10 @@ li {
 
 .work {
   background: #e5e5e5;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: 1fr;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 .project {
@@ -189,6 +195,7 @@ li {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  padding-left: 16px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -289,7 +296,7 @@ li {
   background-image: url("image/contact form shapes-mobile.svg");
   background-position: right;
   background-repeat: no-repeat;
-  margin-top: 40%;
+  background-size: 96%;
   border-top-left-radius: 6rem;
   display: flex;
   flex-direction: column;
@@ -432,4 +439,246 @@ li {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    padding-left: 120px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding: 0;
+    height: 916px;
+    left: 1139px;
+    top: 16px;
+  }
+
+  .item-navigation {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    padding-right: 90px;
+    text-align: center;
+    color: #344563;
+    gap: 32px;
+  }
+
+  .mobile-portfolio {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+  }
+
+  .first-page {
+    min-width: 375px;
+    padding-top: 190px;
+    padding-left: 260px;
+    padding-right: 260px;
+    height: 680px;
+    background: #fff;
+    background-image: url("image/Header bg.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 92%;
+    border-bottom-left-radius: 6rem;
+  }
+
+  .name {
+    color: #091e42;
+    font-family: 700px;
+  }
+
+  .work {
+    padding-top: 10%;
+    align-items: center;
+  }
+
+  .project {
+    background: #fff;
+    border: 0.2rem solid #e5e5e5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    left: 0;
+    right: 0;
+    width: 1056px;
+    height: 456px;
+  }
+
+  .multipost-project,
+  .uber-project {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project:last-child {
+    margin-bottom: 5%;
+  }
+
+  .project-img {
+    padding: 15px;
+    width: 544px;
+    height: 450px;
+    margin: 0;
+  }
+
+  .project-details {
+    padding-top: 20px;
+  }
+
+  .project-title {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .project-client {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .project-lang {
+    color: #6b778c;
+  }
+
+  .year {
+    color: #6b778c;
+  }
+
+  .project-description {
+    margin-top: 0;
+  }
+
+  .language-title {
+    color: #344563;
+  }
+
+  .tab-title {
+    color: #344563;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .more:hover {
+    color: #fff;
+    background: #6070ff;
+  }
+
+  .more:active {
+    color: #fff;
+    background: #2230d2;
+  }
+
+  .more:disabled {
+    color: #5e6c84;
+  }
+
+  .about-myself {
+    position: relative;
+    border-top-right-radius: 6rem;
+    padding: 0;
+  }
+
+  .myself {
+    display: flex;
+    height: 800px;
+    padding-top: 40px;
+    padding-left: 142px;
+    padding-right: 184px;
+    gap: 37px;
+  }
+
+  .about-me {
+    padding-left: 0;
+  }
+
+  .myself-intro {
+    width: 447px;
+  }
+
+  .resume:hover {
+    color: #fff;
+    background: #6070ff;
+  }
+
+  .resume:active {
+    color: #fff;
+    background: #2230d2;
+  }
+
+  .resume:disabled {
+    color: #5e6c84;
+  }
+
+  .languages {
+    width: 664px;
+  }
+
+  .frame-list {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    gap: 40px;
+  }
+
+  .frame {
+    display: flex;
+    background: #f7f7f9;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .ellipse {
+    width: 48px;
+    height: 48px;
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+
+  .frame-name {
+    color: #253858;
+    font-weight: 500;
+  }
+
+  .form {
+    background-image: url("image/contact form background shapes 1.svg");
+    position: relative;
+  }
+
+  .contact-description {
+    width: 569px;
+    height: 102px;
+  }
+
+  .form-details {
+    padding-top: 12px;
+  }
+
+  .fbutt {
+    margin-left: 26%;
+  }
 }
