@@ -445,6 +445,17 @@ li {
   h2 {
     padding-left: 120px;
   }
+  .logo>h2 {
+    animation: logo 2s 1;
+  }
+  @keyframes logo {
+    from{
+      transform:rotateY(0deg);
+    }
+    to{
+      transform: rotateY(360deg);
+    }
+  }
 
   .menu {
     display: none;
