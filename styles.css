@@ -412,7 +412,6 @@ li {
   height: 48px;
   border-color: #fff;
   padding: 12px 16px 12px 20px;
- 
 }
 
 .fbutt:enabled {
@@ -534,7 +533,7 @@ li {
     right: 0;
     width: 1056px;
     height: 456px;
-    padding-right:30px
+    padding-right: 30px;
   }
 
   .multipost-project,
@@ -590,11 +589,12 @@ li {
   }
 
   .tool {
-    margin-left:8px;
+    margin-left: 8px;
   }
 
   .language-title {
     color: #344563;
+    padding-left: 30px;
   }
 
   .tab-title {
@@ -605,7 +605,7 @@ li {
   }
 
   .more {
-    margin-left:40px;
+    margin-left: 40px;
   }
 
   .more:hover {
@@ -664,10 +664,6 @@ li {
     margin-top: 50px;
   }
 
-  .language-title {
-    padding-left:30px;
-  }
-
   .frame-list {
     display: flex;
     flex-direction: row;
@@ -681,7 +677,7 @@ li {
     flex-direction: column;
     width: 122px;
     height: 120px;
-    margin-left:-30px;
+    margin-left: -30px;
   }
 
   .ellipse {
@@ -696,8 +692,9 @@ li {
     font-weight: 500;
   }
 
-  .pro-languages,.separator-bottom {
-    padding-left:0;
+  .pro-languages,
+  .separator-bottom {
+    padding-left: 0;
   }
 
   .form {
