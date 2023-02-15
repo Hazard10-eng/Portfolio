@@ -23,23 +23,20 @@ REQUIRED SECTIONS:
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+
 - [📝 License](#license)
 
 ### PROJECT NAME
->Set up and mobile first
 
- portfolio-setup
-> Set up and mobile first was objected to build simple portfolio
 
+>Desktop Version
+
+This project was intended to finish portfolio by making desktop version
 
 
 ### It is built by 
@@ -63,7 +60,7 @@ finally we  got to add linters file so that they can be installed
 
  LIVE DEMO
 
-Coming soon
+https://hazard10-eng.github.io/Portfolio/
 
 ### Prerequisites
 
@@ -73,9 +70,12 @@ In order to run this project you need:
 -install linters 
 -install vs code 
 
+## 💻 Getting Started 
+This project is for mastering html and css especially flexbox and anyone who is interested or need it for furher use it requires only have github account then go ahead clone the repo to your own
+down here there is a link to clone 
+
 ### Setup
 Clone this repository to your desired folder:
- portfolio-setup
 git@github.com:Hazard10-eng/Portfolio.git
 
 
