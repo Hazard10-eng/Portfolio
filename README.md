@@ -60,7 +60,7 @@ finally we  got to add linters file so that they can be installed
 
  LIVE DEMO
 
-https://hazard10-eng.github.io/Portfolio/
+coming soon
 
 ### Prerequisites
 
