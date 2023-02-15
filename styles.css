@@ -13,13 +13,13 @@ body {
   font-family: 'poppins', sans-serif;
 }
 
-.about-myself {
+/* .about-myself {
   position: relative;
   top: 48px;
   border-top-right-radius: 10%;
   padding-left: 24px;
   padding-right: 24px;
-}
+} */
 
 a {
   text-decoration: none;
@@ -59,13 +59,13 @@ li {
 
 .first-page {
   min-width: 375px;
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 110px;
+  padding-bottom: 40%;
   padding-left: 24px;
   background: #fff;
   background-image: url("./image/bg.svg");
   background-repeat: no-repeat;
-  background-size: calc(100%);
+  background-position-y: center;
   border-bottom-left-radius: 6rem;
 }
 
@@ -111,7 +111,7 @@ li {
   margin-left: -40px;
 }
 
-.work {
+/* .work {
   background: #e5e5e5;
   display: flex;
   flex-direction: column;
@@ -718,4 +718,4 @@ li {
   .fbutt {
     margin-left: 26%;
   }
-}
+} */
