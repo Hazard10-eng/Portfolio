@@ -111,7 +111,7 @@ li {
   margin-left: -40px;
 }
 
- .work {
+.work {
   background: #e5e5e5;
   display: flex;
   flex-direction: column;
@@ -214,7 +214,7 @@ li {
   position: relative;
   top: 48px;
   border-radius: 0 10% 0 0;
-  padding-top:114px;
+  padding-top: 114px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -719,4 +719,4 @@ li {
   .fbutt {
     margin-left: 26%;
   }
-} */ 
+} */
