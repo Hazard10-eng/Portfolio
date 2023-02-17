@@ -127,16 +127,48 @@ li {
   flex-direction: column;
   margin-bottom: 18%;
 }
-
+.project-details{
+  background-image: url("./image/Snapshoot\ Portfolio.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+  
+}
+.multipost-details{
+  background-image: url("./image/Snapshoot\ Portfolio2.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+  
+}
+.tonic2-details{
+  background-image: url("./image/Snapshoot\ Portfolio\ 3.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+.multipost2-details{
+  background-image: url("./image/Snapshoot\ Portfolio4.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+.details{
+  padding-top:70%;
+}
 .project:last-child {
   margin-bottom: 20%;
 }
 
-.project-img {
+/* .project-img {
   padding: 15px;
   width: 100%;
   margin: 0;
-}
+} */
 
 .project-title {
   font-family: 'Poppins', sans-serif;
