@@ -33,6 +33,9 @@ header {
 li {
   list-style: none;
 }
+.menu {
+  padding-left:200px;
+}
 
 .mobile-portfolio {
   position: absolute;
@@ -657,10 +660,11 @@ li {
   }
 
   .frame-list {
-    display: flex;
+    float: left;
+    /* display: flex;
     flex-direction: row;
     padding-left: 30px;
-    gap: 40px;
+    gap: 40px; */
   }
 
   .frame {
