@@ -598,7 +598,8 @@ li {
     width: 544px;
     height: 450px;
     margin: 0;
-     /* transition: all 1s;  */
+
+    /* transition: all 1s;  */
   }
 
   /* .project-img:hover {
@@ -637,7 +638,7 @@ li {
 
   .language-title {
     color: #344563;
-    margin-left:-160px;
+    margin-left: -160px;
   }
 
   .tab-title {
@@ -645,7 +646,7 @@ li {
     line-height: 24px;
     font-size: 20px;
     font-weight: 500;
-    margin-left:-40px;
+    margin-left: -40px;
   }
 
   .more:hover {
