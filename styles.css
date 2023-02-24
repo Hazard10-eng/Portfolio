@@ -747,7 +747,7 @@ li {
     padding-top: 12px;
   }
 
-  /* .username,
+   .username,
   .useremail,
   .userfeedback {
     transition: all 2s;
@@ -755,7 +755,7 @@ li {
 
   .username:hover {
     transform: scale(1.2);
-  } */
+  } 
 
   .useremail:hover {
     transform: scale(1.2);
