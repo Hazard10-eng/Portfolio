@@ -491,7 +491,7 @@ li {
     padding-left: 120px;
   }
 
-  /* .logo > h2 {
+  .logo > h2 {
     animation: logo 2s 1;
   }
 
@@ -503,7 +503,7 @@ li {
     to {
       transform: rotateY(360deg);
     }
-  }  */
+  }
 
   .menu {
     display: none;
@@ -598,13 +598,12 @@ li {
     width: 544px;
     height: 450px;
     margin: 0;
-
-    /* transition: all 1s;  */
+    transition: all 1s;
   }
 
-  /* .project-img:hover {
+  .project-img:hover {
     transform: scale(0.8);
-  } */
+  }
 
   .project-details {
     padding-top: 20px;
