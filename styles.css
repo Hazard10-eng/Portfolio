@@ -6,7 +6,7 @@
 
 body {
   top: 0;
-  background: #e5e5e5;
+  background: #fff;
   margin: 0;
   padding: 0;
   border: 0;
@@ -14,11 +14,10 @@ body {
 }
 
 .about-myself {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   top: 48px;
   border-top-right-radius: 10%;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 a {
@@ -59,13 +58,13 @@ li {
 
 .first-page {
   min-width: 375px;
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 110px;
+  padding-bottom: 40%;
   padding-left: 24px;
   background: #fff;
   background-image: url("./image/bg.svg");
   background-repeat: no-repeat;
-  background-size: calc(100%);
+  background-position-y: center;
   border-bottom-left-radius: 6rem;
 }
 
@@ -126,6 +125,42 @@ li {
   display: flex;
   flex-direction: column;
   margin-bottom: 18%;
+}
+
+.project-details {
+  /* background-image: url("./image/Snapshoot\ Portfolio.svg");  */
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.multipost-details {
+  /* background-image: url("./image/Snapshoot\ Portfolio2.svg");  */
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.tonic2-details {
+  /* background-image: url("./image/Snapshoot\ Portfolio\ 3.svg");  */
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.multipost2-details {
+  /* background-image: url("./image/Snapshoot\ Portfolio4.svg");  */
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.details {
+  padding-top: 70%;
 }
 
 .project:last-child {
@@ -211,11 +246,14 @@ li {
 
 .myself {
   background: #fff;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   top: 48px;
   border-radius: 0 10% 0 0;
+  padding-top: 114px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 113.85px;
 }
 
 .resume {
@@ -225,7 +263,7 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 25px;
   align-items: center;
   color: #396df2;
   background: #fff;
@@ -261,6 +299,14 @@ li {
   margin-left: -30px;
 }
 
+.tab-title {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+}
+
 .flex-downarrow {
   display: flex;
 }
@@ -293,10 +339,9 @@ li {
 
 .form {
   background-color: #6070ff;
-  background-image: url("image/contact form shapes-mobile.svg");
+  background-image: url('./image/contact.svg');
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 96%;
   border-top-left-radius: 6rem;
   display: flex;
   flex-direction: column;
@@ -592,6 +637,7 @@ li {
 
   .language-title {
     color: #344563;
+    margin-left: -160px;
   }
 
   .tab-title {
@@ -599,6 +645,7 @@ li {
     line-height: 24px;
     font-size: 20px;
     font-weight: 500;
+    margin-left: -40px;
   }
 
   .more:hover {
@@ -623,6 +670,7 @@ li {
 
   .myself {
     display: flex;
+    flex-direction: row;
     height: 800px;
     padding-top: 40px;
     padding-left: 142px;
@@ -684,7 +732,9 @@ li {
   }
 
   .form {
-    background-image: url("image/contact form background shapes 1.svg");
+    background-image: url("./image/contact-desktop.svg");
+    background-position-y: calc(89%);
+    padding-right: 12px;
     position: relative;
   }
 

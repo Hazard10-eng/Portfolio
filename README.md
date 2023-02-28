@@ -36,7 +36,7 @@ REQUIRED SECTIONS:
 
 >Desktop Version
 
-This project was intended to finish portfolio by making desktop version
+This project was intended to finish portfolio by making desktop-version
 
 
 ### It is built by 
