@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   top: 0;
   background: #e5e5e5;
@@ -11,6 +15,7 @@ body {
   padding: 0;
   border: 0;
   font-family: 'poppins', sans-serif;
+  position: relative;
 }
 
 .about-myself {
@@ -54,7 +59,64 @@ li {
 }
 
 .navigation {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 106px;
+  gap: 8px;
+  z-index: 1;
+}
+
+.navigation::after {
+  background-color: rgba(96, 112, 255, 0.95);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+}
+
+.navigation,
+.navigation li,
+#open-menu {
+  z-index: 90;
+}
+
+.menu-name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.cross-menu {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 5px;
+  top: 5px;
+  margin-top: 61px;
+  margin-right: 37px;
+
+  /* Theme 4 / Neutral 11 */
+}
+
+.d-none {
+  display: none !important;
 }
 
 .first-page {
