@@ -119,6 +119,12 @@ li {
   display: none !important;
 }
 
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
 .first-page {
   min-width: 375px;
   padding-top: 110px;
