@@ -6,7 +6,7 @@ const open = document.getElementById('open-menu');
 function closeMenu() {
   menu.classList.add('d-none');
 }
-// all-interaction-scripts
+// all-interaction-scriptss
 function interactions() {
   open.addEventListener('click', () => {
     menu.classList.remove('d-none');
