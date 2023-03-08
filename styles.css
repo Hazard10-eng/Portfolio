@@ -545,7 +545,7 @@ li {
   margin-left: 20px;
 }
 
- .form {
+.form {
   background-color: #6070ff;
   background-image: url("image/contact form shapes-mobile.svg");
   background-position: right;
@@ -915,7 +915,7 @@ li {
     display: flex;
     flex-direction: row;
     padding-left: 30px;
-    gap: 40px;
+    gap: 41px;
   }
 
   .frame {
@@ -974,7 +974,6 @@ li {
   .fbutt {
     margin-left: 26%;
   }
-
 }
 
 /* --RESPONSIVE CSS--- */
