@@ -963,7 +963,7 @@ li {
   }
 } */
 
-/*--RESPONSIVE CSS---*/
+/* --RESPONSIVE CSS--- */
 @media screen and (min-width: 768px) {
   .popup-container {
     width: 80%;
