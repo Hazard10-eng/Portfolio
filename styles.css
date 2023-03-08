@@ -534,7 +534,7 @@ li {
   margin-left: 20px;
 }
 
-/* .form {
+ .form {
   background-color: #6070ff;
   background-image: url("image/contact form shapes-mobile.svg");
   background-position: right;
@@ -544,7 +544,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 779px;
+  margin-top: 150px;
+  padding-bottom: 120px;
 }
 
 .form-header {
@@ -929,6 +930,7 @@ li {
   .form {
     background-image: url("image/contact form background shapes 1.svg");
     position: relative;
+    margin-top: 120px;
   }
 
   .contact-description {
@@ -961,7 +963,7 @@ li {
   .fbutt {
     margin-left: 26%;
   }
-} */
+} 
 
 /* --RESPONSIVE CSS--- */
 @media screen and (min-width: 768px) {
