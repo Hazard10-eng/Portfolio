@@ -390,7 +390,7 @@ li {
   width: 100%;
   margin-left: 0;
   margin-top: 0;
-  color: #7A869A;
+  color: #7a869a;
   justify-content: flex-start;
   margin-bottom: 0.5rem;
 }
@@ -963,9 +963,7 @@ li {
   }
 } */
 
-
-
-/*-- RESPONSIVE CSS ---*/
+/*--RESPONSIVE CSS---*/
 @media screen and (min-width: 768px) {
   .popup-container {
     width: 80%;
@@ -994,5 +992,4 @@ li {
   }
 
   .popup-details p { max-width: calc(100% - 325px); }
-
 }
