@@ -39,6 +39,17 @@ li {
   list-style: none;
 }
 
+.error {
+  display: inline;
+  background-color: rgba(255, 69, 0, 0.5);
+  color: white;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0;
+  border-radius: 2px;
+}
+
 .mobile-portfolio {
   position: absolute;
   left: 0;
@@ -963,7 +974,8 @@ li {
   .fbutt {
     margin-left: 26%;
   }
-} 
+
+}
 
 /* --RESPONSIVE CSS--- */
 @media screen and (min-width: 768px) {
