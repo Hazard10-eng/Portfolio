@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   top: 0;
   background: #e5e5e5;
@@ -11,6 +15,7 @@ body {
   padding: 0;
   border: 0;
   font-family: 'poppins', sans-serif;
+  position: relative;
 }
 
 .about-myself {
@@ -54,18 +59,75 @@ li {
 }
 
 .navigation {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 106px;
+  gap: 8px;
+  z-index: 1;
+}
+
+.navigation::after {
+  background-color: rgba(96, 112, 255, 0.95);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+}
+
+.navigation,
+.navigation li,
+#open-menu {
+  z-index: 90;
+}
+
+.menu-name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.cross-menu {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 5px;
+  top: 5px;
+  margin-top: 61px;
+  margin-right: 37px;
+
+  /* Theme 4 / Neutral 11 */
+}
+
+.d-none {
+  display: none !important;
 }
 
 .first-page {
   min-width: 375px;
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 110px;
+  padding-bottom: 40%;
   padding-left: 24px;
   background: #fff;
   background-image: url("./image/bg.svg");
   background-repeat: no-repeat;
-  background-size: calc(100%);
+  background-position-y: center;
   border-bottom-left-radius: 6rem;
 }
 
@@ -128,15 +190,51 @@ li {
   margin-bottom: 18%;
 }
 
+.project-details {
+  background-image: url("./image/Snapshoot\ Portfolio.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.multipost-details {
+  background-image: url("./image/Snapshoot\ Portfolio2.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.tonic2-details {
+  background-image: url("./image/Snapshoot\ Portfolio\ 3.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.multipost2-details {
+  background-image: url("./image/Snapshoot\ Portfolio4.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50%);
+  background-size: 92%;
+  background-position-y: 5%;
+}
+
+.details {
+  padding-top: 70%;
+}
+
 .project:last-child {
   margin-bottom: 20%;
 }
 
-.project-img {
+/* .project-img {
   padding: 15px;
   width: 100%;
   margin: 0;
-}
+} */
 
 .project-title {
   font-family: 'Poppins', sans-serif;
@@ -150,6 +248,7 @@ li {
 }
 
 .project-nav {
+  background: url("./image/Snapshoot/ Portfolio.svg");
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -166,6 +265,141 @@ li {
   line-height: 24px;
   color: #344563;
   margin-left: 40px;
+}
+
+.popup {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  z-index: 9;
+}
+
+.popup::after {
+  display: block;
+  position: fixed;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(193, 199, 208, 0.95);
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  filter: inherit;
+  padding: 1rem;
+  width: calc(100% - 2rem);
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 0.8rem;
+  z-index: 999;
+}
+
+.popup .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popup .top-bar button {
+  display: inline-flex;
+  border: none;
+  outline: 0;
+  background-color: transparent;
+  font-size: 1.85rem;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  font-weight: 400;
+}
+
+.popup h3 {
+  font-size: 2rem;
+  color: #172b4d;
+  font-weight: 700;
+  margin: 0;
+}
+
+.popup img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.popup p {
+  color: #344563;
+  line-height: 1.5rem;
+}
+
+.popup .side-bar {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-bar ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.side-bar ul li {
+  font-size: 0.75rem;
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+}
+
+.side-bar .btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.btn-group a {
+  display: inline-flex;
+  border: 2px solid #6070ff;
+  color: #6070ff;
+  padding: 0.75rem 1.5rem;
+  text-transform: capitalize;
+  gap: 0.35rem;
+  border-radius: 0.25rem;
+}
+
+.popup .project-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  color: #7a869a;
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.popup .project-nav h4 { color: #344563; }
+
+.popup .project-nav img {
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 .pro-tool {
@@ -214,6 +448,7 @@ li {
   position: relative;
   top: 48px;
   border-radius: 0 10% 0 0;
+  padding-top: 114px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -261,6 +496,14 @@ li {
   margin-left: -30px;
 }
 
+.tab-title {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+}
+
 .flex-downarrow {
   display: flex;
 }
@@ -291,7 +534,7 @@ li {
   margin-left: 20px;
 }
 
-.form {
+/* .form {
   background-color: #6070ff;
   background-image: url("image/contact form shapes-mobile.svg");
   background-position: right;
@@ -718,4 +961,35 @@ li {
   .fbutt {
     margin-left: 26%;
   }
+} */
+
+/* --RESPONSIVE CSS--- */
+@media screen and (min-width: 768px) {
+  .popup-container {
+    width: 80%;
+    max-width: 1100px;
+    margin-top: 4rem;
+  }
+
+  .popup .top-bar button {
+    font-size: 2rem;
+    color: #67798e;
+  }
+
+  .popup .side-bar {
+    max-width: 320px;
+  }
+
+  .popup .side-bar ul {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .popup-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .popup-details p { max-width: calc(100% - 325px); }
 }

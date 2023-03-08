@@ -1,255 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Mobile Porfolio</title>
-  </head>
-  <body>
-    <header class="mobile-portfolio">
-      <a href="#" class="logo">
-        <h2>Eros</h2>
-      </a>
-      <nav class="menu"><img src="./image/Union.svg" alt="union" /></nav>
-      <nav>
-       <ul class="navigation">
-        <li class="item-navigation">
-          <a href="#">Portfolio</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </li>
-       </ul>
-      </nav>
-    </header>
-    <section class="first-page">
-      <h2 class="name">
-        I'm Aime <br />
-        Glad to see you!
-      </h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 
-      <p class="text">
-        I am a software developer! I can help you build a product, feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <div class="contact">
-        <a href="#" class="connect">LET'S CONNECT</a>
-        <ul class="social-icons">
-          <li><img src="./image/Twitter.png" alt="twitter" /></li>
-          <li><img src="./image/Icon - Linkedin.png" alt="dot" /></li>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
 
-          <li><img src="./image/Icon - Medium.png" alt="Medium" /></li>
+  <title>Mobile Porfolio</title>
+</head>
 
-          <li><img src="./image/Github.png" alt="github" /></li>
-          <li><img src="./image/angelist 1.png" alt="n" /></li>
-        </ul>
-      </div>
-    </section>
-    <section class="work">
-       <div class="project tonic-project">
-          <img
-            src="image\Snapshoot Portfolio11.png"
-            alt="tonic"
-            class="project-img"
-          />
+<body>
+  <header class="mobile-portfolio">
+    <a href="#" class="logo">
+      <h2>Eros</h2>
+    </a>
+    <nav class="menu"><img id="open-menu" src="./image/Union.svg" alt="union" />
+      <ul class="navigation d-none" id="navigation">
+        <!-- <li class="item-navigation"> -->
+        <li><img id="cross" class="cross-menu" src="./image/cross.png" alt="cross-menu"></li>
+        <li> <a class="menu-name" href="#work">Portfolio</a></li>
+        <li><a class="menu-name" href="#about">About</a></li>
+        <li><a class="menu-name" href="#form">Contact</a></li>
 
-        <div class="project-details">
-          <h2 class="project-title">Tonic</h2>
-          <nav class="project-nav">
-            <h4 class="project-client">Canopy</h4>
-            <img src="./image/Counter.svg" alt="counter" />
-            <span class="project-lang">Back End Dev</span>
-            <img src="./image/Counter.svg" alt="counter" />
-            <span class="year">2015</span>
-          </nav>
+      </ul>
+    </nav>
+  </header>
 
-          <p class="project-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="pro-tool">
-            <li class="tool">html</li>
-            <li class="tool">css</li>
-            <li class="tool">javascript</li>
-          </ul>
-          <button class="more">see project</button>
-        </div>
-      </div>
-      
-      <div class="project multipost-project">
-        <img
-          src="./image/Snapshoot Portfolio 41.png"
-          alt="multipost"
-          class="project-img" 
-        />
-        <div class="multipost-details">
-          <h2 class="project-title">Multi-post stories</h2>
-          <nav class="project-nav">
-            <h4 class="project-client">Facebook</h4>
-            <img src="./image/Counter.svg" alt="counter" />
-            <span class="project-lang">Full stack dev</span>
-            <img src="./image/Counter.svg" alt="counter" />
-            <span class="year">2015</span>
-          </nav>
-          <p class="project-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="pro-tool">
-            <li class="tool">html</li>
-            <li class="tool">css</li>
-            <li class="tool">javascript</li>
-          </ul>
-          <button class="more">see project</button>
-      </div>
-        
-      </div>
-      <div class="project tonic2">
-        <img
-          src="image\Snapshoot Portfolio 1a.png"
+  <section class="first-page" id="first-page">
+    <h1 class="name">
+      I'm Aime <br />
+      Glad to see <br> you!
+    </h1>
+
+    <p class="text">
+      I am a software developer! I can help you build a product, feature or
+      website Look through some of my work and experience! If you like what
+      you see and have a project you need coded, don’t hestiate to contact me.
+    </p>
+    <div class="contact">
+      <a href="#" class="connect">LET'S CONNECT</a>
+      <ul class="social-icons">
+        <li><a href="#"><img src="./image/Twitter.png" alt="twitter" /></a></li>
+        <li> <a href="#"><img src="./image/Icon - Linkedin.png" alt="dot"></a></li>
+
+        <li> <a href="#"><img src="./image/Icon - Medium.png" alt="Medium" /></a></li>
+
+        <li> <a href="#"><img src="./image/Github.png" alt="github" /></a></li>
+        <li> <a href="#"><img src="./image/angelist 1.png" alt="n" /></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <!--
+    <div class="project tonic-project">
+       <img
+          src="./image/Snapshoot Portfolio.svg"
           alt="tonic"
           class="project-img"
         />
-        <div class="project-details">
-          <h2 class="project-title">Facebook 360</h2>
+
+      <div class="project-details">
+        <div class="details">
+          <h2 class="project-title">Tonic</h2>
           <nav class="project-nav">
-            <h4 class="project-client">Facebook</h4>
+            <h4 class="project-client">Canopy</h4>
+
             <img src="./image/Counter.svg" alt="counter" />
-            <span class="project-lang">Full stack Dev</span>
+            <span class="project-lang">Back End Dev</span>
             <img src="./image/Counter.svg" alt="counter" />
+
+
+
+
             <span class="year">2015</span>
           </nav>
           <p class="project-description">
-            Exploring the future of media in 
-            Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
           </p>
           <ul class="pro-tool">
             <li class="tool">html</li>
-            <li class="tool">Ruby on rails</li>
-            <li class="tool">css</li>
-            <li class="tool">javascript</li>
-          </ul>
-          <button class=" more more-about">see project</button>
-        </div>
-      </div>
-      <div class="project uber-project">
-        <img
-        src="image\Snapshoot Portfolio 21.png "
-        alt="tonic"
-        class="project-img"
-      />
-        <div class="project-details">
-          <h2 class="project-title">
-            Uber Navigation
-          </h2>
-          <nav class="project-nav">
-            <h4 class="project-client">Uber</h4>
-            <img src="./image/Counter.svg" alt="counter" />
-            <span class="project-lang">Lead Developer</span>
-            <img src="./image/Counter.svg" alt="counter" />
-            <span class="year">2018</span>
-          </nav>
-          <p class="project-description">
-            A smart assistant to make driving more safe, efficient, and fun by 
-            unlocking your most expensive computer: your car.
-          </p>
-          <ul class="pro-tool">
-            <li class="tool">html</li>
-            <li class="tool">Ruby on rails</li>
             <li class="tool">css</li>
             <li class="tool">javascript</li>
           </ul>
           <button class="more">see project</button>
         </div>
-        
       </div>
-    </section>
-    <section class="about-myself">
-      <div class="myself">
-       <div class="myself-intro"> 
-        <h2 class="name about-me">About<br/>Myself</h2>
-        <p class="text">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
+    </div>   -->
+  </section>
 
-        
-          <a href="#" class="connect">LET'S CONNECT</a>
-          <ul class="social-icons">
-            <li><img src="./image/Github.png" alt="github" /></li>
-            <li><img src="./image/Icon - Linkedin.png" alt="ln" /></li>
+  <section class="about-myself" id="about">
+    <div class="myself">
+      <h2 class="name">About<br />Myself</h2>
+      <p class="text">
+        Hello I’m a software developer! I can help you build a product ,
+        feature or website Look through some of my work and experience! If you
+        like what you see and have a project you need coded, don’t hestiate to
+        contact me.
+      </p>
 
-            <li><img src="./image/angelist 1.png" alt="angelList" /></li>
+      <div class="contact" id="contact">
+        <a href="#" class="connect">LET'S CONNECT</a>
+        <ul class="social-icons">
 
-            <li><img src="./image/Twitter.png" alt="twitter" /></li>
-            <li><img src="./image/Icon - Medium.png" alt="Mail" /></li>
-          </ul>
-          <button class="resume">Get my resume</button>
-       </div>
-        <div class="languages">
-          <ul class="pro-languages">
-            <li class="language-list">
-              <h2 class="language-title">Languages</h2>
-              <img src="./image/down.svg" alt="arrow" class="downarrow" />
-            </li>
-          </ul>
-          <ul class="frame-list">
-            <li class="frame">
-              <img
-                src="./image/Ellipse 11.png"
-                alt="js"
-                class="ellipse"
-              />
-              <h4 class="frame-name">Javascript</h4>
-            </li>
-            <li class="frame">
-              <img src="./image/HTML Ellipse.svg" alt="html" class="ellipse" />
-              <h4 class="frame-name">HTML</h4>
-            </li>
-            <li class="frame">
-              <img src="./image/CSS Ellipse .svg" alt="css" class="ellipse" />
-              <h4 class="frame-name">CSS</h4>
-            </li>
-          </ul>
-          <ul class="pro-languages separator-bottom">
-            <li class="tabs">
-              <h4 class="tab-title">Framework</h4>
-              <a href="#">
-                <img src="./image/right.svg" alt="right" class="right-arrow" />
-              </a>
-            </li>
-          </ul>
-          <ul class="pro-languages separator-bottom">
-            <li class="tabs">
-              <h4 class="tab-title">Skills</h4>
-              <a href="#">
-                <img src="./image/right.svg" alt="right" class="right-arrow" />
-              </a>
-            </li>
-          </ul>
+          <li><img src="./image/Github.png" alt="github" /></li>
+          <li><img src="./image/Icon - Linkedin.png" alt="ln" /></li>
+
+          <li><img src="./image/angelist 1.png" alt="angelList" /></li>
+
+          <li><img src="./image/Twitter.png" alt="twitter" /></li>
+          <li><img src="./image/Icon - Medium.png" alt="Mail" /></li>
+        </ul>
+        <button class="resume">Get my resume</button>
       </div>
+      <div class="languages">
+        <ul class="pro-languages">
+          <li class="language-list">
+            <h2 class="language-title">Languages</h2>
+
+            <img src="./image/down.svg" alt="arrow" class="downarrow" />
+
+          </li>
+        </ul>
+        <ul class="frame-list">
+          <li class="frame">
+            <img src="./image/Javascript Ellipse.svg" alt="js" class="ellipse" />
+            <h4 class="frame-name">Javascript</h4>
+          </li>
+          <li class="frame">
+            <img src="./image/HTML Ellipse.svg" alt="html" class="ellipse" />
+            <h4 class="frame-name">HTML</h4>
+          </li>
+          <li class="frame">
+            <img src="./image/CSS Ellipse .svg" alt="css" class="ellipse" />
+            <h4 class="frame-name">CSS</h4>
+          </li>
+        </ul>
+        <ul class="pro-languages separator-bottom">
+          <li class="tabs">
+            <h4 class="tab-title">Framework</h4>
+            <a href="#">
+              <img src="./image/right.svg" alt="right" class="right-arrow" />
+            </a>
+          </li>
+        </ul>
+        <ul class="pro-languages separator-bottom">
+          <li class="tabs">
+            <h4 class="tab-title">Skills</h4>
+            <a href="#">
+
+              <img src="./image/right.svg" alt="right" class="right-arrow" />
+
+            </a>
+          </li>
+        </ul>
       </div>
-    </section>
-    <section class="form">
+    </div>
+  </section>
+  <!-- <section class="form">
       <ul class="form-header">
         <li class="form-list">
           <h4 class="contact-title">Contact me</h4>
@@ -270,7 +187,7 @@
           maxlength="30"
           required
         />
-        <input 
+        <input
         name="email"
          class="useremail"
           type="email"
@@ -291,6 +208,8 @@
         <button class="fbutt">Get It Touch</button>
       </form>
     </div>
-    </section>
-  </body>
+    </section> -->
+  <script src="index.js"></script>
+</body>
+
 </html>
