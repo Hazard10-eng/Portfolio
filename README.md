@@ -39,15 +39,17 @@ REQUIRED SECTIONS:
 This project was intended to finish portfolio by making desktop version
 
 
-### It is built by 
+### It is built by
 >html
 >css
+>JavaScript
 
  ### Tech Stack
  >html
  >css
+ >JavaScript
 
-### This project is built with 
+### This project is built with
 the help of html and css
 Also with adding .gitgnore file
 Again with adding stylelintrc.json and .hintrc
@@ -67,12 +69,12 @@ https://hazard10-eng.github.io/Portfolio/
 In order to run this project you need:
 -computer
 -network
--install linters 
--install vs code 
+-install linters
+-install vs code
 
-## 💻 Getting Started 
+## 💻 Getting Started
 This project is for mastering html and css especially flexbox and anyone who is interested or need it for furher use it requires only have github account then go ahead clone the repo to your own
-down here there is a link to clone 
+down here there is a link to clone
 
 ### Setup
 Clone this repository to your desired folder:
@@ -88,7 +90,7 @@ git@github.com:Hazard10-eng/Portfolio.git
 To run tests, run the following command:
 npx stylelint styles.css for linters check and correction
 
- AUTHORS 
+ AUTHORS
 
 - GitHub:[(https://github.com/Hazard10-eng)]
 - Twitter: [https://twitter.com/AimeSebagabo]
@@ -96,15 +98,14 @@ npx stylelint styles.css for linters check and correction
 
 ## ⭐️ Show your support
 
-If you like this project please rate it to ten so I can have courage to move forward 
+If you like this project please rate it to ten so I can have courage to move forward
 
-## 🙏 Acknowledgments 
+## 🙏 Acknowledgments
 
 I would like to thank God to help me finish this project
 
-## 📝 License 
+## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
