@@ -169,7 +169,35 @@ function checkEmail(str) {
   return typeof(str) === 'string' && str === str.toLowerCase();
 }
 
-let formData = {};
+function saveData(info) {
+  localStorage.setItem('form-data', JSON.stringify(info));
+}
+
+function parseData(key) {
+  return JSON.parse(localStorage.getItem(key));
+}
+
+let formData = {}; // stores our form fields data
+
+// checking pre-saved data and pre-filling fields
+if (localStorage.getItem('form-data')) {
+  const oldData = parseData('form-data');
+  form.querySelector('[name="name"]').value = oldData['name'];
+  form.querySelector('[name="email"]').value = oldData['email'];
+  form.querySelector('[name="feedback"]').value = oldData['feedback'];
+}
+
+
+// preserve data in localStorage
+form.addEventListener('change', (event) => {
+  formData = Object.assign({
+    name: event.currentTarget.name.value || '',
+    email: event.currentTarget.email.value || '',
+    feedback: event.currentTarget.feedback.value || '',
+  });
+
+  saveData(formData); // saving the data onchange
+});
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
